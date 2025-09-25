@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <div>
        <div className="text-center text-white mt-11">
-      <h2 className="text-5xl font-bold mb-4">Welcome to my React Router App</h2>
+      <h2 className="text-5xl font-bold mb-4" data-aos="fade-down">Welcome to my React Router App</h2>
        <p className='text-3xl'>I’m  <span className=" text-green-600 text-3xl ">{texts[index]}</span></p>
     </div>
     </div>

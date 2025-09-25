@@ -30,7 +30,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+    <div className="p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6" data-aos="fade-down">
       {projects.map((project, index) => (
         <div
           key={index}

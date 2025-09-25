@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 import { Navigate, Route, Routes } from 'react-router-dom'
@@ -7,8 +7,19 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Projects from './pages/Projects'
 import NotFound from './pages/NotFound'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+
 
 const App = () => {
+
+   useEffect(() => {
+    AOS.init({
+      duration: 1000, // animation duration
+      once: true, // whether animation should happen only once
+    })
+  }, [])
   return (
     <>
      <Navbar/> 
