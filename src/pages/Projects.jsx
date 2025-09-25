@@ -16,6 +16,16 @@ const projects = [
     tech: ['React', 'Tailwind CSS'],
     link: 'https://mybio-pearl.vercel.app/',
   },
+  {
+    title: 'E-commerce Site',
+    tech: ['React', 'Tailwind CSS'],
+    link: 'https://day19-redux.vercel.app/',
+  },
+  {
+    title: 'weather App',
+    tech: ['React', 'Tailwind CSS'],
+    link: 'https://coruscating-fenglisu-167d1f.netlify.app/',
+  },
 ];
 
 const Projects = () => {
