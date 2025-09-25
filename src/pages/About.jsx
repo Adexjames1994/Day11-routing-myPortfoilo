@@ -5,16 +5,19 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 const About = () => {
   return (
     <div className="max-w-4xl mx-auto p-6 text-center  rounded-lg shadow-md">
-      <h2 className="text-3xl font-bold mb-4 text-white">About Me</h2>
+      <h2 className="text-3xl font-bold mb-4 text-white" data-aos="fade-down">About Me</h2>
       
       
-      <div className="flex flex-col md:flex-row items-center gap-6 text-white">
+      <div className="flex flex-col md:flex-row items-center gap-6 text-white" >
          <img
+         data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"
           src="https://res.cloudinary.com/dgp5aqkov/image/upload/v1752322426/ade111_yx5bqc.jpg" // Replace with your actual image URL
           alt="Adeola"
           className="w-48 h-48 object-cover rounded-full border-4 border-lime-700"
         />
-        <div className='text-left text-white'>
+        <div className='text-left text-white' data-aos="fade-up">
           <p className="text-lg mb-2 text-white">
             Hi, I’m <span className="font-semibold  text-green-600">Jegede Adeola James</span>, a passionate Frontend Developer based in Abeokuta, Nigeria.
           </p>
