@@ -10,6 +10,7 @@ import NotFound from './pages/NotFound'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import useTawk from "../src/hooks/useTawk";
+import WhatsAppButton from './Components/WhatsAppButton'
 
 
 
@@ -32,6 +33,7 @@ const App = () => {
   return (
     <>
       <Navbar />
+      <WhatsAppButton />
       <div className="p-6 min-h-[80vh]">
         <Routes>
           <Route path='/' element={<Home/>}/>
